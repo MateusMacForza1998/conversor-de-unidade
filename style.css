@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    margin: 5vw;
+    background-color:#A208FF;
+    width: 25vw;
+    border-radius: 8px;
+    padding: 15px;
+   
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.input-gp{
+    text-align: left;
+    font-size: large;
+    padding: 10px;
+   
+}
+input{
+    
+    color: white;
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:#7306b8;
+}
+select{
+    color: white;
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:#7306b8;
+}
+option{
+    color: white;
+}
+input::placeholder{
+    color: white;
+    padding-left: 5px;
+}
+.bt-converte{
+    
+    margin-left: 10px;
+    text-align: center;
+    width: 25%;
+    height: 40px;
+    font-size: large;
+    background-color:black;
+    color:#A208FF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.bt-converte:hover{
+    background-color:rgb(255, 255, 255);
+    color:#A208FF;
+    cursor: pointer;
+    opacity: 1;
+
+}
+.out-gp{
+
+    text-align: left;
+   font-size: large;
+   padding: 10px;
+}
+.msg{
+    font-size: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+  text-align: center;
+}
+@media screen and
+(max-width: 620px){
+
+    section{
+        background-color:#A208FF;
+        width: 80%;
+       
+    }
+    .bt-converte{
+        width: 60%;
+    }
+
+}
